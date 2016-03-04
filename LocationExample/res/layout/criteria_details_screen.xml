@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<!--
+     A VerticalLayout represents a group of views arranged vertically.
+	We want the VerticalLayout to fill all the screen size
+	and the content to be centered into the VerticalLayout.
+
+-->
+<VerticalLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    stretchHorizontalMode="MATCH_PARENT"
+    stretchVerticalMode="MATCH_PARENT"
+    xsi:noNamespaceSchemaLocation="http://www.neomades.com/XSD/3.9.5/layout.xsd" >
+
+    <HorizontalLayout
+        marginTop="10"
+        stretchHorizontalMode="MATCH_PARENT"
+        stretchVerticalMode="MATCH_CONTENT" >
+
+        <CheckBox
+            id="@+id/ID_USE_DEFAULT_CRITERIA"
+            stretchHorizontalMode="MATCH_PARENT"
+            stretchVerticalMode="MATCH_CONTENT"
+            checked="false"
+            text="@string/DEFAULT" />
+    </HorizontalLayout>
+
+    <HorizontalLayout
+        marginTop="10"
+        stretchHorizontalMode="MATCH_PARENT"
+        stretchVerticalMode="MATCH_CONTENT" >
+
+        <TextLabel
+            id="@+id/ID_ACCURACY"
+            stretchHorizontalMode="MATCH_PARENT"
+            stretchVerticalMode="MATCH_CONTENT"
+            text="@string/ACCURACY" />
+
+        <ComboBox
+            id="@+id/ID_ACCURACY_RESULT"
+            stretchHorizontalMode="MATCH_PARENT"
+            stretchVerticalMode="MATCH_CONTENT" />
+    </HorizontalLayout>
+
+    <HorizontalLayout
+        marginTop="10"
+        stretchHorizontalMode="MATCH_PARENT"
+        stretchVerticalMode="MATCH_CONTENT" >
+
+        <TextLabel
+            id="@+id/ID_MIN_TIME"
+            stretchHorizontalMode="MATCH_PARENT"
+            stretchVerticalMode="MATCH_CONTENT"
+            text="@string/MIN_TIME" />
+
+        <TextField
+            id="@+id/ID_MIN_TIME_RESULT"
+            editMode="MODE_NUMERIC"
+            stretchHorizontalMode="MATCH_PARENT"
+            stretchVerticalMode="MATCH_CONTENT"
+            contentAlignment="RIGHT" />
+    </HorizontalLayout>
+
+    <HorizontalLayout
+        marginTop="10"
+        stretchHorizontalMode="MATCH_PARENT"
+        stretchVerticalMode="MATCH_CONTENT" >
+
+        <TextLabel
+            id="@+id/ID_MIN_DISTANCE"
+            stretchHorizontalMode="MATCH_PARENT"
+            stretchVerticalMode="MATCH_CONTENT"
+            text="@string/MIN_DISTANCE" />
+
+        <TextField
+            id="@+id/ID_MIN_DISTANCE_RESULT"
+            editMode="MODE_NUMERIC"
+            stretchHorizontalMode="MATCH_PARENT"
+            stretchVerticalMode="MATCH_CONTENT"
+            contentAlignment="RIGHT" />
+    </HorizontalLayout>
+
+    <HorizontalLayout
+        marginTop="10"
+        stretchHorizontalMode="MATCH_PARENT"
+        stretchVerticalMode="MATCH_CONTENT" >
+
+        <TextLabel
+            id="@+id/ID_POWER_REQUIREMENT"
+            stretchHorizontalMode="MATCH_PARENT"
+            stretchVerticalMode="MATCH_CONTENT"
+            text="@string/POWER_REQUIREMENT" />
+
+        <ComboBox
+            id="@+id/ID_POWER_REQUIREMENT_RESULT"
+            stretchHorizontalMode="MATCH_PARENT"
+            stretchVerticalMode="MATCH_CONTENT" />
+    </HorizontalLayout>
+
+    <HorizontalLayout
+        marginTop="10"
+        stretchHorizontalMode="MATCH_PARENT"
+        stretchVerticalMode="MATCH_CONTENT" >
+
+        <CheckBox
+            id="@+id/ID_COST_ALLOWED"
+            stretchHorizontalMode="MATCH_PARENT"
+            stretchVerticalMode="MATCH_CONTENT"
+            text="@string/COST_ALLOWED" />
+    </HorizontalLayout>
+
+    <HorizontalLayout
+        marginTop="10"
+        stretchHorizontalMode="MATCH_PARENT"
+        stretchVerticalMode="MATCH_CONTENT" >
+
+        <CheckBox
+            id="@+id/ID_ALTITUDE_REQUIRED"
+            stretchHorizontalMode="MATCH_PARENT"
+            stretchVerticalMode="MATCH_CONTENT"
+            text="@string/ALTITUDE_REQUIRED" />
+    </HorizontalLayout>
+
+</VerticalLayout>

@@ -1,0 +1,5 @@
+ID;en;fr;
+TXT_HELLO;Hello World! (default style);Bonjour le monde ! (style par défaut);
+TXT_HELLO_CUSTOM_STYLE;Hello World! (custom style);Bonjour le monde ! (style perso);
+TXT_HOW_ARE_YOU;How are you? (default style);Comment allez-vous ? (style par défaut);
+TXT_CLICK_ME;Click me!;Cliquez moi !;

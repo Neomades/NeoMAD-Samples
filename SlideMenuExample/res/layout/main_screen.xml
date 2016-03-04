@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!-- VerticalLayout in MATCH_PARENT, MATCH_PARENT with a vertically and horizontally 
+	centered ImageLabel and TextLabel. -->
+<VerticalLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://www.neomades.com/XSD/3.9.5/layout.xsd" 
+    id="@+id/main_layout"
+    stretchHorizontalMode="MATCH_PARENT"
+    stretchVerticalMode="MATCH_PARENT"
+    contentAlignment="HCENTER|VCENTER"
+    backgroundColor="#FFFFFF">
+
+	<ImageLabel 
+		id="@+id/main_img"
+		stretchHorizontalMode="MATCH_CONTENT"
+    	stretchVerticalMode="MATCH_CONTENT"
+    	image="@image/ic_home"
+		/>
+	<!-- A TextLabel allows to display a simple text on the screen. 
+		We want the TextLabel size to match the text. -->
+    <TextLabel
+    	id="@+id/main_txt"
+    	stretchHorizontalMode="MATCH_CONTENT"
+    	stretchVerticalMode="MATCH_CONTENT"
+        text="@string/HOME"
+        textColor="#000000" />
+    
+</VerticalLayout>

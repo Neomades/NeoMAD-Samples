@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<VerticalLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    contentAlignment="HCENTER|VCENTER"
+    xsi:noNamespaceSchemaLocation="http://www.neomades.com/XSD/3.9.5/layout.xsd" stretchVerticalMode="MATCH_PARENT" backgroundColor="#C0C0C0">
+
+    <TextLabel
+        id="@+id/LABEL"
+        stretchHorizontalMode="MATCH_CONTENT"
+        stretchVerticalMode="MATCH_CONTENT"
+        text="" textColor="#000000"/>
+    
+    <Button
+        id="@+id/BUTTON"
+        stretchHorizontalMode="MATCH_CONTENT"
+        stretchVerticalMode="MATCH_CONTENT"
+        text="Push a new Screen" />
+
+</VerticalLayout>

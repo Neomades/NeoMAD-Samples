@@ -1,0 +1,29 @@
+ID;en;fr;
+ACCELEROMETER;Accelerometer
+GYROSCOPE;Gyroscope
+MAGNETOMETER;Magnetometer
+DESCRIPTION;Sensor Data's
+X;X
+Y;Y
+Z;Z
+X_;X : 
+Y_;Y : 
+Z_;Z : 
+START;Start
+STOP;Stop
+SPEED;Speed Acquisition
+LOW;LOW
+NORMAL;NORMAL
+GAME;GAME
+FASTEST;FASTEST
+ERROR_SENSOR;The sensor requested is not available.
+ERROR_ACCELEROMETER;There is no accelerometer available on this device.You can't perform any raw acceleration acquisition.
+ERROR_GYROSCOPE;There is no gyroscope available on this device.You can't perform any angular speed acquisition.
+ERROR_MAGNETOMETER;There is no magnetometer available on this device. You can't perform any raw magnetic field.
+DESCRIPTION_ACCELEROMETER;RAW ACCELERATION ALONG THE FOLLOWING AXIS - unit (m/s^2)
+DESCRIPTION_GYROSCOPE;ANGULAR SPEED AROUND THE FOLLOWING AXIS  - unit (radians/s)
+DESCRIPTION_MAGNETOMTER;RAW MAGNETIC FIELD ALONG THE FOLLOWING AXIS (microtesla)
+TITRE_MENU;Pick a sensor
+TITRE_ACCELEROMETER;Accelerometer
+TITRE_GYROSCOPE;Gyroscope
+TITRE_MAGNETOMETER;Magnetometer

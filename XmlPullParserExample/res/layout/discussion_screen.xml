@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ScrollView
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://www.neomades.com/XSD/3.9.5/layout.xsd"
+	stretchHorizontalMode="MATCH_PARENT"
+	stretchVerticalMode="MATCH_PARENT"
+	backgroundColor="#ffffff" >
+	
+	<VerticalLayout
+		id="@+id/DISCUSSION_LAYOUT"
+		stretchHorizontalMode="MATCH_PARENT"
+		stretchVerticalMode="MATCH_PARENT"
+		padding="20" />
+</ScrollView>

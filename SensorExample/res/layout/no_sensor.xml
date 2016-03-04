@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<VerticalLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    stretchHorizontalMode="MATCH_PARENT"
+    stretchVerticalMode="MATCH_PARENT"
+    xsi:noNamespaceSchemaLocation="http://www.neomades.com/XSD/3.9.5/layout.xsd" >
+
+    <TextLabel
+        id="@+id/ERROR_SENSOR_LABEL"
+        padding="16"
+        text="@string/ERROR_SENSOR" />
+
+</VerticalLayout>

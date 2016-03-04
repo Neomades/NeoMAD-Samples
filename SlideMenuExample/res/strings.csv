@@ -1,0 +1,6 @@
+ID;en;fr;
+HOME;Home screen: first middle screen;Ecran principal : premier écran du milieu;
+PHOTO;"Photo" screen: new root screen, press back to return to the SlideScreen; Ecran "photo" : nouvel écran principal, appuyez sur retour pour retourner sur le SlideScreen;
+ABOUT;"About" screen: second middle screen, press back to return to Home screen; Ecran "about": second écran du mileu, appuyer sur retour pour retourner sur l'écran Home;
+FIND_PEOPLE;"Find people" screen: second right screen, press back to return to the right menu; Ecran "Find people": second écran de droite, appuyez sur retour pour réafficher le menu de droite;
+TXT_NOT_SUPPORTED;SlideScreen is not supported in Java ME and BlackBerry.;Le SlideScreen n'est pas supporté en JavaME et BlackBerry.;

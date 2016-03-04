@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<VerticalLayout stretchHorizontalMode="MATCH_PARENT"
+	stretchVerticalMode="MATCH_PARENT">
+	<ScrollView xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:noNamespaceSchemaLocation="http://www.neomades.com/XSD/3.9.5/layout.xsd"
+		stretchHorizontalMode="MATCH_PARENT" stretchVerticalMode="MATCH_PARENT">
+
+		<VerticalLayout stretchHorizontalMode="MATCH_PARENT"
+			stretchVerticalMode="MATCH_CONTENT">
+
+			<TextLabel text="@string/CONTACT_NAME"
+				stretchHorizontalMode="MATCH_CONTENT" stretchVerticalMode="MATCH_CONTENT" />
+			<TextField stretchHorizontalMode="MATCH_PARENT"
+				stretchVerticalMode="MATCH_PARENT" id="@+id/name" />
+			<TextLabel text="@string/CONTACT_MOBILE_PHONE"
+				stretchHorizontalMode="MATCH_CONTENT" stretchVerticalMode="MATCH_CONTENT" />
+			<TextField stretchHorizontalMode="MATCH_PARENT"
+				stretchVerticalMode="MATCH_PARENT" id="@+id/mobile_phone" editMode="MODE_PHONE_NUMBER" />
+			<TextLabel text="@string/CONTACT_HOME_PHONE"
+				stretchHorizontalMode="MATCH_CONTENT" stretchVerticalMode="MATCH_CONTENT" />
+			<TextField stretchHorizontalMode="MATCH_PARENT"
+				stretchVerticalMode="MATCH_PARENT" id="@+id/home_phone" editMode="MODE_PHONE_NUMBER" />
+			<TextLabel text="@string/CONTACT_WORK_PHONE"
+				stretchHorizontalMode="MATCH_CONTENT" stretchVerticalMode="MATCH_CONTENT" />
+			<TextField stretchHorizontalMode="MATCH_PARENT"
+				stretchVerticalMode="MATCH_PARENT" id="@+id/work_phone" editMode="MODE_PHONE_NUMBER" />
+			<TextLabel text="@string/CONTACT_OTHER_PHONE"
+				stretchHorizontalMode="MATCH_CONTENT" stretchVerticalMode="MATCH_CONTENT" />
+			<TextField stretchHorizontalMode="MATCH_PARENT"
+				stretchVerticalMode="MATCH_PARENT" id="@+id/other_phone" editMode="MODE_PHONE_NUMBER" />
+			<TextLabel text="@string/CONTACT_HOME_EMAIL"
+				stretchHorizontalMode="MATCH_CONTENT" stretchVerticalMode="MATCH_CONTENT" />
+			<TextField stretchHorizontalMode="MATCH_PARENT"
+				stretchVerticalMode="MATCH_PARENT" id="@+id/home_email" editMode="MODE_EMAIL_ADDRESS" />
+			<TextLabel text="@string/CONTACT_WORK_EMAIL"
+				stretchHorizontalMode="MATCH_CONTENT" stretchVerticalMode="MATCH_CONTENT" />
+			<TextField stretchHorizontalMode="MATCH_PARENT"
+				stretchVerticalMode="MATCH_PARENT" id="@+id/work_email" editMode="MODE_EMAIL_ADDRESS" />
+			<TextLabel text="@string/CONTACT_OTHER_EMAIL"
+				stretchHorizontalMode="MATCH_CONTENT" stretchVerticalMode="MATCH_CONTENT" />
+			<TextField stretchHorizontalMode="MATCH_PARENT"
+				stretchVerticalMode="MATCH_PARENT" id="@+id/other_email" editMode="MODE_EMAIL_ADDRESS" />
+			<TextLabel text="@string/CONTACT_HOME_ADDRESS"
+				stretchHorizontalMode="MATCH_CONTENT" stretchVerticalMode="MATCH_CONTENT" />
+			<TextField stretchHorizontalMode="MATCH_PARENT"
+				stretchVerticalMode="MATCH_PARENT" id="@+id/home_address" />
+			<TextLabel text="@string/CONTACT_WORK_ADDRESS"
+				stretchHorizontalMode="MATCH_CONTENT" stretchVerticalMode="MATCH_CONTENT" />
+			<TextField stretchHorizontalMode="MATCH_PARENT"
+				stretchVerticalMode="MATCH_PARENT" id="@+id/work_address" />
+			<TextLabel text="@string/CONTACT_OTHER_ADDRESS"
+				stretchHorizontalMode="MATCH_CONTENT" stretchVerticalMode="MATCH_CONTENT" />
+			<TextField stretchHorizontalMode="MATCH_PARENT"
+				stretchVerticalMode="MATCH_PARENT" id="@+id/other_address" />
+			
+
+		</VerticalLayout>
+	</ScrollView>
+	<Button text="@string/SAVE_IT" stretchHorizontalMode="MATCH_PARENT"
+				stretchVerticalMode="MATCH_CONTENT" id="@+id/button_save_contact"
+				margin="10" />
+</VerticalLayout>

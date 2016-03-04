@@ -1,0 +1,10 @@
+ID;en;fr;
+register;Register;Inscription;
+UNREGISTER;Unregister;Désinscription;
+NAME;Name :;Nom :;
+SEND;Send;Envoyer;
+ACTION;Open;Ouvrir;
+PM_NEW_MESSAGE;You received a new message from  %1$s and %2$s.;Vous avez reçu un nouveau message de la part de %1$s et de %2$s;
+ARG1;John;Jean;
+ARG2;Mary;Marie;
+TXT_NOT_SUPPORTED;Notification API is not supported in Windows Store apps.;L'API Notification n'est pas supportée en Windows Store apps.;

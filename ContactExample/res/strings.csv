@@ -1,0 +1,72 @@
+ID;en;fr
+MAIN_TITLE;Contact Example;Application d'exemple Contact
+CONTACT_MANAGER_TITLE;Contact Manager Example;Exemple d'utilisation de ContactManager
+CONTACT_DATABASE_TITLE;Contact Database Example;Exemple d'utilisation de ContactDatabase
+ADD_TITLE;Contact Adder Example;Exemple d'ajout de contact
+EDIT_TITLE;Contact Editor Example;Exemple d'édition de contact
+PICK_TITLE;Contact Picker Example;Exemple du "picker" de contact
+SHOW_TITLE;Show Contact Example;Exemple d'affichage du contact
+SAVE_TITLE;Save Contact Example;Exemple de sauvegarde du contact
+GET_ALL_TITLE;Get All Contacts Example;Exemple de récupération de tout les contacts
+CONTACT_DETAILS_TITLE;Contact's details;Détails du contact
+DELETE_TITLE;Delete Contact Example;Exemple de suppression du contact
+PICK_CONTACT;Pick a contact;Picker un contact
+ADD_CONTACT;Add a contact;Ajouter un contact
+ADD_CONTACT_PREF;Add a contact (prefilled);Ajouter un contact (prérempli)
+EDIT_CONTACT;Edit a contact;Editer un contact
+SHOW_CONTACT;Show a contact;Afficher un contact
+SAVE_CONTACT;Save a contact;Sauvegarder un contact
+GET_ALL_CONTACTS;Get all contacts;Récupérer tous les contacts
+DELETE_CONTACT;Delete a contact;Supprimer un contact
+OP_RESULT;Operation's result: ;Résultat de l'opération : 
+OP_RESULT_ERROR;Operation's result (ERROR): ;Résultat de l'opération (ERREUR) : 
+PRESS_ADD;Press the button to add a contact.;Appuyez sur le bouton pour ajouter un contact.
+PRESS_ADD_PREF;You can also add a contact with a prefilled form. Here:;On peut également ajouter un contact avec un formulaire prérempli. Ici :
+ADDED_CONTACT;Contact added:;Contact ajouté :
+CONTACT;Contact:;Contact :
+PREF_NAME;Display Name: 'John Doe';Nom Entier : 'John Doe'
+PREF_PHONE;Phone Number: '0102030405';Numéro de téléphone : '0102030405'
+PREF_EMAIL;Email Address: 'john.doe@neomades.com';Adresse email : 'john.doe@neomades.com'
+PRESS_PICK_AND_EDIT;Pick a contact, then edit it.;Choisissez un contact, puis éditez-le.
+EDIT_IT;Edit it;Editer le contact
+SAVE_IT;Save it;Sauvegarder le contact
+PRESS_PICK;Press the button to pick a contact.;Appuyez sur le bouton pour picker un contact.
+PICKED_CONTACT;Contact picked:;Contact pické :
+PRESS_PICK_AND_SHOW;Pick a contact, then display it.;Choisissez un contact, puis affichez-le.
+SHOW_IT;Show it;Afficher le contact
+PRESS_SAVE;Press the button to save this contact:;Appuyez sur le bouton pour supprimer ce contact:
+UPDATE_JOHN_DOE;Press the button below to update "John Doe" contact with empty fields.;Appuyez sur le bouton ci-dessous pour mettre à jour le contact John Doe avec des champs vide.
+UPDATE_CONTACT;Update John Doe;Mettre à jour John Doe
+PRESS_GET_ALL;Press the button below to get the full phone's contact list.; Appuyez sur le bouton ci-dessous afin de récupérer la totalité des contacts du téléphone.
+PRESS_PICK_AND_DELETE;Use the picker to choose the contact you wish to delete, than click "Delete it" button.;Utilisez le picker afin de choisir le contact à supprimmer, puis cliquez sur le bouton "Supprimer ce contact".
+DELETE_IT;Delete it;Supprimer ce contact
+CONTACT_NAME;Contact's display name;Nom du contact
+CONTACT_PHONE;Phone number: ;Numéro de téléphone : 
+CONTACT_MOBILE_PHONE;Mobile phone number: ;Numéro de téléphone mobile : 
+CONTACT_HOME_PHONE;Home phone number: ;Numéro de téléphone du domicile : 
+CONTACT_WORK_PHONE;Work phone number: ;Numéro de téléphone du travail : 
+CONTACT_OTHER_PHONE;Other phone number: ;Autre numéro de téléphone : 
+CONTACT_EMAIL;E-mail address: ;Adresse électronique : 
+CONTACT_HOME_EMAIL;E-mail address personnal (Home): ;Adresse électronique personelle : 
+CONTACT_WORK_EMAIL;E-mail address professional (Work): ;Adresse électronique professionelle :
+CONTACT_OTHER_EMAIL;Other E-mail address: ;Autre adresse électronique :
+CONTACT_MOBILE_EMAIL;Mobile E-mail address: ;Adresse électronique mobile:
+CONTACT_ADDRESS;Postal address: ;Adresse postale :
+CONTACT_HOME_ADDRESS;Home postal address: ;Adresse postale du domicile : 
+CONTACT_WORK_ADDRESS;Work postal address: ;Adresse postale professionelle : 
+CONTACT_OTHER_ADDRESS;Other postal address: ;Autre adresse postale : 
+CONTACT_JOB;Job title: ;Métier : 
+CONTACT_JOB_DEP;Job department: ;Secteur :
+CONTACT_COMPANY;Company: ;Entreprise : 
+CONTACT_DATE;Important date: ;Date importante : 
+CONTACT_DATE_BIRTHDAY;Important date (Birthday): ;Date d'anniversaire du contact (Birthday) : 
+CONTACT_DATE_ANNIVERSARY;Important date (Anniversary): ;Date d'anniversaire (Anniversary) : 
+CONTACT_DATE_OTHER;Important date (OTHER): ;Autre date importante : 
+CONTACT_URL;Website: ;Site Web : 
+CONTACT_NOTES;Notes: ;Notes : 
+NEW_CONTACT_TITLE;New contact;Nouveau contact
+PICK_EXISTING;In this screen, you can pick an existing contact to update him...;Dans cet écran, on peut choisir un contact existant afin de le modifier...
+CREATE_NEW;...or create a new one.;...ou en créer un nouveau.
+CONTACTS_LIST_TITLE;List of all contacts;Liste de tous les contacts
+CONTACT_DETAILS;Show contact's details;Voir les détails du contact
+TXT_NOT_SUPPORTED;ContactAPI is not supported in Java ME and BlackBerry.;L'API Contact n'est pas supportée en JavaME et BlackBerry.;

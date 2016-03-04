@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<ListView xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://www.neomades.com/XSD/3.9.5/layout.xsd"
+	stretchHorizontalMode="MATCH_PARENT" stretchVerticalMode="MATCH_CONTENT"
+	id="@+id/contact_manager_screen_list">
+	<TextLabel id="@+id/pick_contact_item" text="@string/PICK_CONTACT"
+		stretchHorizontalMode="MATCH_PARENT" stretchVerticalMode="MATCH_CONTENT"
+		paddingTop="12" paddingBottom="12" />
+	<TextLabel id="@+id/add_contact_item" text="@string/ADD_CONTACT"
+		stretchHorizontalMode="MATCH_PARENT" stretchVerticalMode="MATCH_CONTENT"
+		paddingTop="12" paddingBottom="12" />
+	<TextLabel id="@+id/edit_contact_item" text="@string/EDIT_CONTACT"
+		stretchHorizontalMode="MATCH_PARENT" stretchVerticalMode="MATCH_CONTENT"
+		paddingTop="12" paddingBottom="12" />
+	<TextLabel id="@+id/show_contact_item" text="@string/SHOW_CONTACT"
+		stretchHorizontalMode="MATCH_PARENT" stretchVerticalMode="MATCH_CONTENT"
+		paddingTop="12" paddingBottom="12" />
+</ListView>

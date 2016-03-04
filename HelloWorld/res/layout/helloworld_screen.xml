@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- A VerticalLayout represents a group of views arranged vertically.
+	We want the VerticalLayout to fill all the screen size
+	and the content to be centered into the VerticalLayout. -->
+<VerticalLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://www.neomades.com/XSD/3.9.5/layout.xsd" 
+    stretchHorizontalMode="MATCH_PARENT"
+    stretchVerticalMode="MATCH_PARENT"
+    contentAlignment="HCENTER|VCENTER">
+
+	<!-- A TextLabel allows to display a simple text on the screen. 
+		We want the TextLabel size to match the text. -->
+    <TextLabel
+    	stretchHorizontalMode="MATCH_CONTENT"
+    	stretchVerticalMode="MATCH_CONTENT"
+        text="@string/HELLO_WORLD" />
+    
+</VerticalLayout>

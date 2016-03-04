@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<ScrollView xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://www.neomades.com/XSD/3.9.5/layout.xsd"
+	stretchHorizontalMode="MATCH_PARENT" stretchVerticalMode="MATCH_PARENT">
+	
+	<VerticalLayout stretchHorizontalMode="MATCH_PARENT"
+		stretchVerticalMode="MATCH_CONTENT">
+		<Button text="Immediate" stretchHorizontalMode="MATCH_PARENT"
+			stretchVerticalMode="MATCH_CONTENT" id="@+id/buttonNotifyImmediate" margin="10" />
+
+		<Button text="In 15 seconds" stretchHorizontalMode="MATCH_PARENT"
+			stretchVerticalMode="MATCH_CONTENT" id="@+id/buttonNotifyIn15Seconds" margin="10" />
+
+		<Button text="Every 30 Minutes" stretchHorizontalMode="MATCH_PARENT"
+			stretchVerticalMode="MATCH_CONTENT" id="@+id/buttonNotifyEvery30Minutes" margin="10" />
+
+		<Button text="Cancel all" stretchHorizontalMode="MATCH_PARENT"
+			stretchVerticalMode="MATCH_CONTENT" id="@+id/buttonCancelAll" margin="10" />
+
+
+	</VerticalLayout>
+</ScrollView>

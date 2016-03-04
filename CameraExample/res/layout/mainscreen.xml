@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<VerticalLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://www.neomades.com/XSD/3.9.5/layout.xsd"
+	stretchHorizontalMode="MATCH_PARENT"
+	stretchVerticalMode="MATCH_PARENT">
+	
+    <TextLabel 
+	    text="@string/MAINSCREEN_LABEL" 
+		padding="5"/>
+		
+	<Button 
+		id="@+id/CAMERA_BUTTON"
+		stretchHorizontalMode="MATCH_CONTENT"
+		stretchVerticalMode="MATCH_CONTENT"
+		text="@string/CAMERA_BUTTON_LABEL" 
+		marginTop="10"
+		marginBottom="10"/>
+			
+	<ImageLabel 
+		id="@+id/MAINSCREEN_IMAGELABEL"
+		padding="5"
+		stretchHorizontalMode="MATCH_PARENT"
+		stretchVerticalMode="MATCH_PARENT" />
+        
+</VerticalLayout>

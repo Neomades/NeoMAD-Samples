@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<!--
+     A VerticalLayout represents a group of views arranged vertically.
+	We want the VerticalLayout to fill all the screen size
+	and the content to be centered into the VerticalLayout.
+-->
+<VerticalLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    stretchHorizontalMode="MATCH_PARENT"
+    stretchVerticalMode="MATCH_PARENT"
+    xsi:noNamespaceSchemaLocation="http://www.neomades.com/XSD/3.9.5/layout.xsd" >
+
+    <VerticalLayout
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        stretchHorizontalMode="MATCH_PARENT"
+        stretchVerticalMode="MATCH_PARENT"
+        xsi:noNamespaceSchemaLocation="http://www.neomades.com/XSD/3.9.5/layout.xsd" >
+
+        <HorizontalLayout
+            marginTop="10"
+            stretchHorizontalMode="MATCH_PARENT"
+            stretchVerticalMode="MATCH_CONTENT" >
+
+            <TextLabel
+                id="@+id/ID_LATITUDE"
+                stretchHorizontalMode="MATCH_CONTENT"
+                stretchVerticalMode="MATCH_CONTENT"
+                text="@string/LATITUDE" />
+
+            <TextLabel
+                id="@+id/ID_LATITUDE_RESULT"
+                stretchHorizontalMode="MATCH_CONTENT"
+                stretchVerticalMode="MATCH_CONTENT" />
+        </HorizontalLayout>
+
+        <HorizontalLayout
+            marginTop="10"
+            stretchHorizontalMode="MATCH_PARENT"
+            stretchVerticalMode="MATCH_CONTENT" >
+
+            <TextLabel
+                id="@+id/ID_LONGITUDE"
+                stretchHorizontalMode="MATCH_CONTENT"
+                stretchVerticalMode="MATCH_CONTENT"
+                text="@string/LONGITUDE" />
+
+            <TextLabel
+                id="@+id/ID_LONGITUDE_RESULT"
+                stretchHorizontalMode="MATCH_CONTENT"
+                stretchVerticalMode="MATCH_CONTENT" />
+        </HorizontalLayout>
+
+        <HorizontalLayout
+            marginTop="10"
+            stretchHorizontalMode="MATCH_PARENT"
+            stretchVerticalMode="MATCH_CONTENT" >
+
+            <TextLabel
+                id="@+id/ID_ALTITUDE"
+                stretchHorizontalMode="MATCH_CONTENT"
+                stretchVerticalMode="MATCH_CONTENT"
+                text="@string/ALTITUDE" />
+
+            <TextLabel
+                id="@+id/ID_ALTITUDE_RESULT"
+                stretchHorizontalMode="MATCH_CONTENT"
+                stretchVerticalMode="MATCH_CONTENT" />
+        </HorizontalLayout>
+
+        <HorizontalLayout
+            marginTop="10"
+            stretchHorizontalMode="MATCH_PARENT"
+            stretchVerticalMode="MATCH_CONTENT" >
+
+            <TextLabel
+                id="@+id/ID_SPEED"
+                stretchHorizontalMode="MATCH_CONTENT"
+                stretchVerticalMode="MATCH_CONTENT"
+                text="@string/SPEED" />
+
+            <TextLabel
+                id="@+id/ID_SPEED_RESULT"
+                stretchHorizontalMode="MATCH_CONTENT"
+                stretchVerticalMode="MATCH_CONTENT" />
+        </HorizontalLayout>
+
+        <HorizontalLayout
+            marginTop="10"
+            stretchHorizontalMode="MATCH_PARENT"
+            stretchVerticalMode="MATCH_CONTENT" >
+
+            <TextLabel
+                id="@+id/ID_BEARING"
+                stretchHorizontalMode="MATCH_CONTENT"
+                stretchVerticalMode="MATCH_CONTENT"
+                text="@string/BEARING" />
+
+            <TextLabel
+                id="@+id/ID_BEARING_RESULT"
+                stretchHorizontalMode="MATCH_CONTENT"
+                stretchVerticalMode="MATCH_CONTENT" />
+        </HorizontalLayout>
+
+        <HorizontalLayout
+            marginTop="10"
+            stretchHorizontalMode="MATCH_PARENT"
+            stretchVerticalMode="MATCH_CONTENT" >
+
+            <TextLabel
+                id="@+id/ID_TIMESTAMP"
+                stretchHorizontalMode="MATCH_CONTENT"
+                stretchVerticalMode="MATCH_CONTENT"
+                text="@string/TIMESTAMP" />
+
+            <TextLabel
+                id="@+id/ID_TIMESTAMP_RESULT"
+                stretchHorizontalMode="MATCH_CONTENT"
+                stretchVerticalMode="MATCH_CONTENT" />
+        </HorizontalLayout>
+    </VerticalLayout>
+
+    <HorizontalLayout
+        marginTop="10"
+        stretchHorizontalMode="MATCH_PARENT"
+        stretchVerticalMode="MATCH_CONTENT" >
+
+        <Button
+            id="@+id/ID_BUTTON_START"
+            stretchHorizontalMode="MATCH_PARENT"
+            stretchVerticalMode="MATCH_CONTENT"
+            text="@string/START" />
+
+        <Button
+            id="@+id/ID_BUTTON_STOP"
+            stretchHorizontalMode="MATCH_PARENT"
+            stretchVerticalMode="MATCH_CONTENT"
+            text="@string/STOP" />
+    </HorizontalLayout>
+
+</VerticalLayout>

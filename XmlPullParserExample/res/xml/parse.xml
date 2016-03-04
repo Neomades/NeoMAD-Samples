@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <user1>
+        <id>912345678901</id>
+        <text>How do I read XML file on NeoMAD?</text>
+        <name>neomad_newb</name>
+        <followers_count>41</followers_count>
+    </user1>
+
+    <user2>
+        <id>912345678902</id>
+        <text>@neomad_newb just use org.xmlpull.v1.XmlPullParser!</text>
+        <name>NeoMAD support team</name>
+        <followers_count>2</followers_count>
+    </user2>
+</root>

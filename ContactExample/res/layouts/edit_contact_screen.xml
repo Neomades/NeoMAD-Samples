@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<ScrollView xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://www.neomades.com/XSD/3.9.5/layout.xsd"
+	stretchHorizontalMode="MATCH_PARENT" stretchVerticalMode="MATCH_PARENT">
+	
+	<VerticalLayout stretchHorizontalMode="MATCH_PARENT"
+		stretchVerticalMode="MATCH_CONTENT">
+		<TextLabel text="@string/PRESS_PICK_AND_EDIT" stretchHorizontalMode="MATCH_PARENT"
+			stretchVerticalMode="MATCH_CONTENT" margin="10"/>
+			
+		<Button text="@string/PICK_CONTACT" stretchHorizontalMode="MATCH_PARENT"
+			stretchVerticalMode="MATCH_CONTENT" id="@+id/button_pick_contact" margin="10" />
+		
+		<Button text="@string/EDIT_IT" stretchHorizontalMode="MATCH_PARENT"
+			stretchVerticalMode="MATCH_CONTENT" id="@+id/button_edit_contact" margin="10" />
+			
+		<TextLabel text="@string/CONTACT" stretchHorizontalMode="MATCH_PARENT"
+			stretchVerticalMode="MATCH_CONTENT" margin="10"/>
+
+		<TextLabel stretchHorizontalMode="MATCH_PARENT" stretchVerticalMode="MATCH_CONTENT" id="@+id/name" marginLeft="10"/>
+
+		<TextLabel stretchHorizontalMode="MATCH_PARENT" stretchVerticalMode="MATCH_CONTENT" id="@+id/phone_number" marginLeft="10"/>
+
+		<TextLabel stretchHorizontalMode="MATCH_PARENT" stretchVerticalMode="MATCH_CONTENT" id="@+id/email" marginLeft="10"/>
+		
+		<TextLabel text="@string/OP_RESULT" stretchHorizontalMode="MATCH_PARENT" stretchVerticalMode="MATCH_CONTENT" 
+		margin="10" id="@+id/operation_result"/>
+
+	</VerticalLayout>
+</ScrollView>

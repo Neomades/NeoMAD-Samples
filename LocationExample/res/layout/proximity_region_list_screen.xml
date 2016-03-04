@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!--
+     A VerticalLayout represents a group of views arranged vertically.
+	We want the VerticalLayout to fill all the screen size
+	and the content to be centered into the VerticalLayout.
+-->
+<VerticalLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    contentAlignment="HCENTER|VCENTER"
+    stretchHorizontalMode="MATCH_PARENT"
+    stretchVerticalMode="MATCH_PARENT"
+    xsi:noNamespaceSchemaLocation="http://www.neomades.com/XSD/3.9.5/layout.xsd" >
+    
+    <VerticalLayout
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        stretchHorizontalMode="MATCH_PARENT"
+        stretchVerticalMode="MATCH_PARENT"
+        xsi:noNamespaceSchemaLocation="http://www.neomades.com/XSD/3.9.5/layout.xsd" >
+    
+
+    <ListView
+        id="@+id/ID_REGION_LISTVIEW" >
+    </ListView>
+
+</VerticalLayout>
+
+<HorizontalLayout
+        marginTop="10"
+        stretchHorizontalMode="MATCH_PARENT"
+        stretchVerticalMode="MATCH_CONTENT" >
+
+        <Button
+            id="@+id/ID_BUTTON_ADD_REGION"
+            stretchHorizontalMode="MATCH_PARENT"
+            stretchVerticalMode="MATCH_CONTENT"
+            text="@string/ADD" />
+    </HorizontalLayout>
+
+</VerticalLayout>

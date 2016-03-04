@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<ScrollView
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://www.neomades.com/XSD/3.9.5/layout.xsd"
+	stretchHorizontalMode="MATCH_PARENT"
+	stretchVerticalMode="MATCH_PARENT"	>
+
+	<VerticalLayout
+		stretchHorizontalMode="MATCH_PARENT"
+		stretchVerticalMode="MATCH_PARENT"
+		padding="10" >
+		
+		<TextLabel 
+			text="@string/WRITING_WITH_JSONARRAY"
+			stretchHorizontalMode="MATCH_PARENT"
+			stretchVerticalMode="MATCH_CONTENT"/>
+		
+		<TextLabel 
+			id="@+id/TL_WRITING_WITH_JSONARRAY_CONTENT"
+			stretchHorizontalMode="MATCH_PARENT"
+			stretchVerticalMode="MATCH_CONTENT"
+			padding="10"
+			backgroundColor="#ffffff"
+			textColor="#333333"/>
+		
+		<TextLabel 
+			text="@string/WRITING_WITH_JSONWRITER"
+			stretchHorizontalMode="MATCH_PARENT"
+			stretchVerticalMode="MATCH_CONTENT"
+			marginTop="10"/>
+		
+		<TextLabel 
+			id="@+id/TL_WRITING_WITH_JSONWRITER_CONTENT"
+			stretchHorizontalMode="MATCH_PARENT"
+			stretchVerticalMode="MATCH_CONTENT"
+			padding="10"
+			backgroundColor="#ffffff"
+			textColor="#333333"/>
+		
+	</VerticalLayout>
+</ScrollView>

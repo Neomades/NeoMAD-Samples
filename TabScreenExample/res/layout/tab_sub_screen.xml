@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<VerticalLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    contentAlignment="HCENTER|VCENTER"
+    xsi:noNamespaceSchemaLocation="http://www.neomades.com/XSD/3.9.5/layout.xsd" stretchVerticalMode="MATCH_PARENT">
+
+    <TextLabel
+        id="@+id/TAB_SCREEN_CONTENT_LABEL"
+        stretchHorizontalMode="MATCH_CONTENT"
+        stretchVerticalMode="MATCH_CONTENT"
+        text="" />
+
+</VerticalLayout>

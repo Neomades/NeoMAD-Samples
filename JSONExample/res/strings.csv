@@ -1,0 +1,9 @@
+ID;en
+JSON_STRING_TITLE;Let's consider the following json encoded string and parse it to retrieve the discussion :
+JSON_STRING;[\n    {\n        "id": 912345678901,\n        "text": "How do I read JSON on NeoMAD ?",\n        "user": {\n            "name": "neomad_newb",\n            "followers_count":41\n        }\n    },\n    {\n        "id": 912345678902,\n        "text": "@neomad_newb just use com.neomades.json.JSONReader!",\n        "user": {\n            "name": "NeoMAD support team",\n            "followers_count": 2\n        }\n    },\n    {\n        "id": 912345678903,\n        "text": "@neomad_newb you can also use com.neomades.json.JSONObject/JSONArray.",\n        "user": {\n            "name": "NeoMAD support team",\n            "followers_count": 2\n        }\n    }\n]\n;
+READ_JSON;Read json strings
+WRITE_JSON;Write json strings
+READ_JSONARRAY;use JSONArray;
+READ_JSONREADER;use JSONReader;
+WRITING_WITH_JSONARRAY;This string has been created using a JSONArray Object :
+WRITING_WITH_JSONWRITER;This string has been created using a JSONWriter Object :

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<VerticalLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://www.neomades.com/XSD/3.9.5/layout.xsd"
+	contentAlignment="HCENTER|VCENTER"
+	stretchHorizontalMode="MATCH_PARENT"
+	stretchVerticalMode="MATCH_PARENT">
+
+	<Button id="@+id/UPLOAD_BUTTON"
+		stretchHorizontalMode="MATCH_CONTENT"
+		stretchVerticalMode="MATCH_CONTENT"
+		text="@string/UPLOAD_IMAGE" />
+
+	<TextLabel id="@+id/UPLOAD_RESULT"
+		stretchHorizontalMode="MATCH_CONTENT"
+		stretchVerticalMode="MATCH_CONTENT" />
+
+</VerticalLayout>

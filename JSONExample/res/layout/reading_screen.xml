@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<VerticalLayout
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://www.neomades.com/XSD/3.9.5/layout.xsd"
+	stretchHorizontalMode="MATCH_PARENT"
+	stretchVerticalMode="MATCH_PARENT"
+	padding="10">
+
+	<TextLabel 
+		id="@+id/TL_JSON_STRING_TITLE"
+		text="@string/JSON_STRING_TITLE"
+		stretchHorizontalMode="MATCH_PARENT"
+		stretchVerticalMode="MATCH_CONTENT"/>
+
+	<ScrollView
+		stretchHorizontalMode="MATCH_PARENT"
+		stretchVerticalMode="MATCH_PARENT">
+	
+		<VerticalLayout
+			padding="5">
+			<TextLabel 
+				id="@+id/TEXT_LABEL_JSON_STRING"
+				backgroundColor="#ffffff"
+				textColor="#666666"
+				text="@string/JSON_STRING"
+				stretchHorizontalMode="MATCH_PARENT"
+				stretchVerticalMode="MATCH_CONTENT"/>
+				
+		</VerticalLayout>		
+	
+	
+	</ScrollView>
+	
+	<HorizontalLayout
+		stretchHorizontalMode="MATCH_PARENT"
+		stretchVerticalMode="MATCH_CONTENT"
+		marginTop="10" >
+		<Button
+			id="@+id/BUTTON_READ_JSONARRAY"
+			text="@string/READ_JSONARRAY"
+			stretchHorizontalMode="MATCH_PARENT"
+			stretchVerticalMode="MATCH_CONTENT"/>
+		
+		<Button	
+			id="@+id/BUTTON_READ_JSONREADER"
+			text="@string/READ_JSONREADER"
+			stretchHorizontalMode="MATCH_PARENT"
+			stretchVerticalMode="MATCH_CONTENT"/>
+	</HorizontalLayout>
+</VerticalLayout>		
+		

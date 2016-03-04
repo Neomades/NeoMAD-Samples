@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<VerticalLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    padding="16"
+    stretchHorizontalMode="MATCH_PARENT"
+    stretchVerticalMode="MATCH_PARENT"
+    xsi:noNamespaceSchemaLocation="http://www.neomades.com/XSD/3.9.5/layout.xsd" >
+
+    <ScrollView>
+
+        <VerticalLayout
+            stretchHorizontalMode="MATCH_PARENT"
+            stretchVerticalMode="MATCH_CONTENT" >
+
+            <TextLabel
+                id="@+id/DESCRIPTION_LABEL"
+                text="@string/DESCRIPTION" />
+
+            <TextLabel
+                id="@+id/X_LABEL"
+                marginTop="8"
+                paddingLeft="8"
+                text="@string/X" />
+
+            <TextLabel
+                id="@+id/Y_LABEL"
+                marginTop="8"
+                paddingLeft="8"
+                text="@string/Y" />
+
+            <TextLabel
+                id="@+id/Z_LABEL"
+                marginTop="8"
+                paddingLeft="8"
+                text="@string/Z" />
+        </VerticalLayout>
+    </ScrollView>
+
+    <HorizontalLayout
+        marginTop="16"
+        stretchHorizontalMode="MATCH_PARENT"
+        stretchVerticalMode="MATCH_CONTENT" >
+
+        <Button
+            id="@+id/START_BUTTON"
+            marginRight="8"
+            stretchHorizontalMode="MATCH_PARENT"
+            stretchVerticalMode="MATCH_CONTENT"
+            text="@string/START" />
+
+        <Button
+            id="@+id/STOP_BUTTON"
+            marginLeft="8"
+            stretchHorizontalMode="MATCH_PARENT"
+            stretchVerticalMode="MATCH_CONTENT"
+            text="@string/STOP" />
+    </HorizontalLayout>
+
+    <VerticalLayout
+        stretchHorizontalMode="MATCH_PARENT"
+        stretchVerticalMode="MATCH_CONTENT" >
+
+        <TextLabel
+            id="@+id/SPEED_LABEL"
+            marginTop="16"
+            text="@string/SPEED" />
+
+        <ComboBox id="@+id/COMBO">
+
+            <Item 
+                text="LOW" />
+            
+            <Item
+                text="NORMAL" />
+
+            <Item
+                text="GAME"/>
+
+            <Item
+                text="FASTEST" />
+            
+        </ComboBox>
+    </VerticalLayout>
+
+</VerticalLayout>

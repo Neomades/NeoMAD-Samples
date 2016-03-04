@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<!--
+     A VerticalLayout represents a group of views arranged vertically.
+	We want the VerticalLayout to fill all the screen size
+	and the content to be centered into the VerticalLayout.
+-->
+<VerticalLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    contentAlignment="HCENTER|VCENTER"
+    stretchHorizontalMode="MATCH_PARENT"
+    stretchVerticalMode="MATCH_PARENT"
+    xsi:noNamespaceSchemaLocation="http://www.neomades.com/XSD/3.9.5/layout.xsd" >
+
+    <ListView
+        id="@+id/ID_LISTVIEW" >
+
+        <TextLabel
+            id="@+id/ID_LOCATION_STATUS"
+            stretchHorizontalMode="MATCH_PARENT"
+            stretchVerticalMode="MATCH_CONTENT"
+            paddingTop="20"
+            paddingBottom="20"
+            text="@string/LOCATION_STATUS" />
+
+        <TextLabel
+            id="@+id/ID_LOCATE_ME"
+            stretchHorizontalMode="MATCH_PARENT"
+            stretchVerticalMode="MATCH_CONTENT"
+            paddingTop="20"
+            paddingBottom="20"
+            text="@string/LOCATE_ME" />
+
+        <TextLabel
+            id="@+id/ID_TRACK_MY_LOCATION"
+            stretchHorizontalMode="MATCH_PARENT"
+            stretchVerticalMode="MATCH_CONTENT"
+            paddingTop="20"
+            paddingBottom="20"
+            text="@string/TRACK_MY_LOCATION" />
+
+        <TextLabel
+            id="@+id/ID_LAST_KNOWN_LOCATION"
+            stretchHorizontalMode="MATCH_PARENT"
+            stretchVerticalMode="MATCH_CONTENT"
+            paddingTop="20"
+            paddingBottom="20"
+            text="@string/LAST_KNOWN_LOCATION" />
+
+        <TextLabel
+            id="@+id/ID_PROXIMITY"
+            stretchHorizontalMode="MATCH_PARENT"
+            stretchVerticalMode="MATCH_CONTENT"
+            paddingTop="20"
+            paddingBottom="20"
+            text="@string/PROXIMITY" />
+
+        <TextLabel
+            id="@+id/ID_DISTANCE_TO"
+            stretchHorizontalMode="MATCH_PARENT"
+            stretchVerticalMode="MATCH_CONTENT"
+            paddingTop="20"
+            paddingBottom="20"
+            text="@string/DISTANCE_TO" />
+    </ListView>
+
+</VerticalLayout>

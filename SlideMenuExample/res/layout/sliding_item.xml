@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!-- A list item in the menu in the left and right screen. See SlideMenuItemHolder. -->
+<HorizontalLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://www.neomades.com/XSD/3.9.5/layout.xsd"
+	stretchHorizontalMode="MATCH_PARENT" 
+	height="48" 
+	backgroundColor="#303030">
+
+	<ImageLabel id="@+id/icon" 
+		width="25" 
+		stretchVerticalMode="MATCH_CONTENT"
+		marginLeft="12" 
+		marginRight="12" 
+		image="@image/ic_home"
+		imageScaleType="SCALE_ASPECT_FIT" 
+		layoutAlignment="VCENTER" />
+
+	<TextLabel id="@+id/title" 
+		stretchHorizontalMode="MATCH_CONTENT"
+		stretchVerticalMode="MATCH_CONTENT"
+		textColor="#ffffff"
+		layoutAlignment="VCENTER|LEFT" 
+		paddingRight="40" />
+
+</HorizontalLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<VerticalLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    padding="20"
+    stretchHorizontalMode="MATCH_PARENT"
+    stretchVerticalMode="MATCH_PARENT"
+    xsi:noNamespaceSchemaLocation="http://www.neomades.com/XSD/3.9.5/layout.xsd" >
+
+    <Button
+        id="@+id/button_immediate"
+        margin="10"
+        stretchHorizontalMode="MATCH_PARENT"
+        stretchVerticalMode="MATCH_CONTENT"
+        text="Immediate" />
+
+    <Button
+        id="@+id/button_schedule_minute"
+        margin="10"
+        stretchHorizontalMode="MATCH_PARENT"
+        stretchVerticalMode="MATCH_CONTENT"
+        text="Schedule 1 min" />
+
+    <Button
+        id="@+id/button_schedule_30_minutes"
+        margin="10"
+        stretchHorizontalMode="MATCH_PARENT"
+        stretchVerticalMode="MATCH_CONTENT"
+        text="Schedule 30 min" />
+
+    <VerticalLayout
+        stretchHorizontalMode="MATCH_PARENT"
+        stretchVerticalMode="MATCH_PARENT" />
+
+    <Button
+        id="@+id/button_stop_services"
+        margin="10"
+        stretchHorizontalMode="MATCH_PARENT"
+        stretchVerticalMode="MATCH_CONTENT"
+        text="Stop services" />
+
+</VerticalLayout>

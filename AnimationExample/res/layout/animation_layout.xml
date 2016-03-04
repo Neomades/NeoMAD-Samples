@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<!-- Layout of AnimationScreen. It is a FrameLayout that occupy all the screen 
+	with 4 layers (VerticalLayout). The first (the lowest) will contain a bug 
+	image that will translate from left to right. The second will contain two 
+	fabric images that will disappear from the screen thanks to translations. The 
+	third will contain two door images that will disappear from the screen as 
+	fabric images do. The fourth (the highest) contains a TextLabel, it will 
+	disappear with a fading effect. -->
+<FrameLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://www.neomades.com/XSD/3.9.5/layout.xsd" 
+    stretchHorizontalMode="MATCH_PARENT"
+    stretchVerticalMode="MATCH_PARENT"
+    backgroundImage="@image/PLATE_CHEESE">
+    
+    <VerticalLayout
+    	stretchHorizontalMode="MATCH_PARENT"
+    	stretchVerticalMode="MATCH_PARENT"
+    	backgroundColor="#00FFFFFF"
+    	contentAlignment="VCENTER">
+    	<ImageLabel 
+    		id="@+id/bug_image" 
+    		stretchHorizontalMode="MATCH_CONTENT"
+    		stretchVerticalMode="MATCH_CONTENT"
+			image="@image/BUG"
+			layoutAlignment="RIGHT|VCENTER"
+    		/>
+    </VerticalLayout>
+    <VerticalLayout
+    	stretchHorizontalMode="MATCH_PARENT"
+    	stretchVerticalMode="MATCH_PARENT"
+    	backgroundColor="#00FFFFFF">
+    	<ImageLabel 
+    		id="@+id/fabric_top_image" 
+    		stretchHorizontalMode="MATCH_PARENT"
+			image="@image/FABRIC_TOP"
+    		/>
+    	<ImageLabel 
+    		id="@+id/fabric_bottom_image" 
+    		stretchHorizontalMode="MATCH_PARENT"
+			image="@image/FABRIC_BOTTOM"
+    		/>
+    </VerticalLayout>
+    <VerticalLayout
+    	stretchHorizontalMode="MATCH_PARENT"
+    	stretchVerticalMode="MATCH_PARENT"
+    	backgroundColor="#00FFFFFF">
+    	<ImageLabel 
+    		id="@+id/door_top_image" 
+    		stretchHorizontalMode="MATCH_PARENT"
+			image="@image/DOOR_TOP"
+    		/>
+    	<ImageLabel 
+    		id="@+id/door_bottom_image" 
+    		stretchHorizontalMode="MATCH_PARENT"
+			image="@image/DOOR_BOTTOM"
+    		/>
+    </VerticalLayout>
+    
+    <VerticalLayout
+    	id="@+id/layout_start"
+    	stretchHorizontalMode="MATCH_PARENT"
+    	stretchVerticalMode="MATCH_PARENT"
+    	backgroundColor="#77D3D3D3"
+    	contentAlignment="VCENTER|HCENTER">
+    	<TextLabel
+    		stretchHorizontalMode="MATCH_CONTENT"
+    		stretchVerticalMode="MATCH_CONTENT"  
+			text="@string/TXT_START"
+			textColor="#000000"
+			layoutAlignment="VCENTER|HCENTER"
+    		/>
+    </VerticalLayout>
+   
+</FrameLayout>

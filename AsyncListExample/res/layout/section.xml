@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<VerticalLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://www.neomades.com/XSD/3.9.5/layout.xsd"
+	stretchHorizontalMode="MATCH_PARENT" stretchVerticalMode="MATCH_CONTENT" backgroundColor="#CCCCCC">
+
+
+	<!-- Title -->
+	<TextLabel id="@+id/section_title" text="title" textColor="#000000"
+		stretchHorizontalMode="MATCH_PARENT" stretchVerticalMode="MATCH_CONTENT" />
+
+	<!-- Separator -->
+	<VerticalLayout stretchHorizontalMode="MATCH_CONTENT"
+		backgroundColor="#444444" stretchVerticalMode="MATCH_PARENT" height="1" />
+
+</VerticalLayout>

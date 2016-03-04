@@ -1,0 +1,9 @@
+ID;en
+READ_XML;Read xml file
+PARSE_STRING_TITLE;Consider the following xml file
+PARSE;Parse this xml file
+READING_TITLE;Reading Screen
+DISCUSSION_TITLE;Discussion Screen
+MAIN_TITLE;Main Screen
+SAY; says:
+ENCODING_ERROR;Cannot read file, encoding format not supported

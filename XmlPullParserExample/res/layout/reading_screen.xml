@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<VerticalLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    padding="10"
+    stretchHorizontalMode="MATCH_PARENT"
+    stretchVerticalMode="MATCH_PARENT"
+    xsi:noNamespaceSchemaLocation="http://www.neomades.com/XSD/3.9.5/layout.xsd" >
+
+    <TextLabel
+        id="@+id/PARSE_TITLE"
+        stretchHorizontalMode="MATCH_PARENT"
+        stretchVerticalMode="MATCH_CONTENT"
+        text="@string/PARSE_STRING_TITLE" />
+
+    <ScrollView
+        stretchHorizontalMode="MATCH_PARENT"
+        stretchVerticalMode="MATCH_PARENT" >
+
+        <VerticalLayout padding="5" >
+
+            <TextLabel
+                id="@+id/XML_FILE_ID"
+                backgroundColor="#ffffff"
+                stretchHorizontalMode="MATCH_PARENT"
+                stretchVerticalMode="MATCH_CONTENT"
+                textColor="#666666" />
+        </VerticalLayout>
+    </ScrollView>
+
+    <HorizontalLayout
+        marginTop="10"
+        stretchHorizontalMode="MATCH_PARENT"
+        stretchVerticalMode="MATCH_CONTENT" >
+
+        <Button
+            id="@+id/PARSE_XML"
+            stretchHorizontalMode="MATCH_PARENT"
+            stretchVerticalMode="MATCH_CONTENT"
+            text="@string/PARSE" />
+    </HorizontalLayout>
+
+</VerticalLayout>

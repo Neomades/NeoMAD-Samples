@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<VerticalLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://www.neomades.com/XSD/3.9.5/layout.xsd"
+    id="@+id/layout_start"
+	stretchHorizontalMode="MATCH_PARENT" 
+	stretchVerticalMode="MATCH_PARENT"
+	backgroundColor="#000000" 
+	contentAlignment="VCENTER|HCENTER">
+	<TextLabel 
+		stretchHorizontalMode="MATCH_CONTENT"
+		stretchVerticalMode="MATCH_CONTENT" 
+		text="@string/TXT_NOT_SUPPORTED"
+		textColor="#FFFFFF" 
+		layoutAlignment="VCENTER|HCENTER" />
+</VerticalLayout>
