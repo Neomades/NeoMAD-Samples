@@ -1,7 +1,7 @@
 NeoMAD Samples
 ==============
 
-This repository contains a number of samples that show how to use NeoMAD Library and tool.
+This repository contains a number of samples that show how to use **NeoMAD Framework**.
 
 For more information see the [Neomades Website](http://www.neomades.com)
 
@@ -10,7 +10,7 @@ License
 
 The Apache License 2.0 applies to all samples in this repository.
 
-   Copyright 2016 Neomades Inc
+   Copyright 2016 Neomades S.A.S
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
